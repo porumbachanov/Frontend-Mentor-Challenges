@@ -25,7 +25,9 @@ function createCard(item) {
 }
 
 function loadData() {
-  challenges.forEach((item) => {
+  [...challenges]
+  .sort((a, b) => b.id - a.id)
+  .forEach((item) => {
     createCard(item);
   });
 }

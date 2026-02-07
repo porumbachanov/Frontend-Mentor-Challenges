@@ -53,4 +53,10 @@ export const challenges = [
     level: 'Newbie',
     id: 9,
   },
+  {
+    name: 'testimonials-grid-section-main',
+    title: 'Testimonials Grid Section',
+    level: 'Junior',
+    id: 10,
+  },
 ];
