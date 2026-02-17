@@ -4,9 +4,10 @@ let currentPeriod = 'weekly';
 const container = document.getElementById('container');
 const periodButtons = document.querySelectorAll('.period-btn');
 
-fetch('/data.json').then((response) => {  
-  if(!response.ok) return console.log('Something went wrong.');
-  
+fetch('data.json').then((response) => {  
+  if(!response.ok) {
+    throw new Error('Failed to fetch data');
+  }
   return response.json();
 }).then((data) => {
   activities = data;
