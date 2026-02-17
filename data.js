@@ -59,4 +59,10 @@ export const challenges = [
     level: 'Junior',
     id: 10,
   },
+  {
+    name: 'time-tracking-dashboard-main',
+    title: 'Time Tracking Dashboard',
+    level: 'Junior',
+    id: 11,
+  },
 ];
