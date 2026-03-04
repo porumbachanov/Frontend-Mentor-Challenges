@@ -65,4 +65,10 @@ export const challenges = [
     level: 'Junior',
     id: 11,
   },
+  {
+    name: 'loopstudios-landing-page-main',
+    title: 'Loopstudios Landing Page',
+    level: 'Junior',
+    id: 12,
+  },
 ];
